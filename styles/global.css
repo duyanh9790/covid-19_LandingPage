@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap");
+
+:root {
+  --primary-color: #fa5652;
+  --secondary-color: #fb4c47;
+}
+
+.second-font {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+@font-face {
+  font-family: Gelion;
+  src: url(../assets/fonts/Gelion\ Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Gelion;
+  src: url(../assets/fonts/Gelion\ SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Gelion;
+  src: url(../assets/fonts/Gelion\ Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Gelion;
+  src: url(../assets/fonts/Gelion\ Regular.ttf);
+  font-weight: 400;
+}
+
+body {
+  font-family: "Gelion", sans-serif;
+  line-height: 1;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn-sm {
+  min-width: 150px;
+  padding: 0 45px;
+  height: 55px;
+  line-height: 55px;
+}
+
+.btn-md {
+  min-width: 170px;
+  height: 65px;
+  line-height: 65px;
+  padding: 0px 50px;
+}
+
+.btn-big {
+  min-width: 190px;
+  height: 78px;
+  line-height: 78px;
+  padding: 0px 80px;
+}
+
+.btn--primary {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.btn--outline {
+  border: 2px solid var(--secondary-color);
+}
+
+.btn--rounded {
+  border-radius: 50%;
+}
+
+.sub-heading {
+  color: var(--primary-color);
+  font-size: 29px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.heading {
+  color: #035755;
+  font-size: 50px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  margin-bottom: 31px;
+}
+
+.description {
+  color: #4b4f51;
+  line-height: 2.15;
+}
+
+.active {
+  color: var(--primary-color);
+}
+
+.status-increase,
+.status-decrease {
+  width: 0;
+  height: 0;
+  border-left: 11.5px solid transparent;
+  border-right: 11.5px solid transparent;
+  border-bottom: 13.8px solid transparent;
+}
+
+.status-increase {
+  border-bottom-color: #f44a45;
+}
+
+.status-decrease {
+  border-bottom-color: #128e5a;
+}
